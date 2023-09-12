@@ -1,0 +1,24 @@
+.star-container {
+    display: inline-block;
+    font-size: 24px;
+    position: relative;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }
+  
+  .star-container::before {
+    content: '★★★★★';
+    opacity: 0.3;
+  }
+  
+  .star-value {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    direction: ltr;
+    color:#ffaf02;
+  }
+  
